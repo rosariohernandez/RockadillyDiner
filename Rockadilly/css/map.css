@@ -1,0 +1,23 @@
+#map {
+ 	max-width:100%;
+ 	height: 100%;
+	padding:30px;
+	box-sizing:border-box;
+	margin-bottom:200px;
+}
+.maps {
+ 	color:#fff;
+ 	background:#28BCA5;
+ 	padding: 20px;
+ 	transition: .5s;
+}
+.embedded{
+	margin-top: 2em;
+ 	margin-left:8px;
+ 	width:200px;
+ 	height: 200px;
+}
+.add {
+ 	width:1200px;
+ 	height:400px;
+}

@@ -1,0 +1,49 @@
+/*html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+body {
+    font-family:'libelsuit', sans-serif;
+}*/
+#sitemap {
+    width:1200px;
+    margin:0 auto;
+    display:flex;
+    flex-flow:wrap;
+    flex-direction:row;
+}
+#title {
+    width:100%;
+    text-align:center;
+    padding:1.5em 0;
+}
+.panel {
+    flex:1 0 0;
+    padding:0.3em 0.5em;
+}
+.panel h2 {
+    border:1px solid black;
+    padding:0.3em 0.5em;
+}
+.panel a {
+    text-decoration:none;
+    color:black;
+}
+.panel a:visited {
+    color:black;
+}
+.panel a:hover {
+    color:#D22A27;
+}
+.panel ul {
+    padding:1em 2em;
+}
+.panel li {
+    
+    float:none;
+}
+.panel li a {
+    text-align:left;
+}

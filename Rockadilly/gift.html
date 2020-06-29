@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Rockadilly</title>
+	<link rel="stylesheet" type="text/css" href="css/global.css">
+	<link rel="stylesheet" type="text/css" href="css/giftcardpage.css">
+	<script src="js/gift.js"></script>
+</head>
+
+<body>
+	<div class="page-wrapper">
+        <!------------------- header -------------------------->
+            <header id="header">
+
+                <nav id="header_nav">
+                    <img id="logo" src="Rockadilly-images/rockadilly-logo-small.png" alt="image of the 
+                    resturant logo">
+                    <h3 class="hidden">Main Navigation</h3>
+                    <ul id="nav_list">
+                        <li><a href="index.html"><span class="h_home">HOME</span></a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="menu.html">MENU</a></li>
+                        <li><a href="map.html">LOCATIONS</a></li>
+                        <li><a href="gift.html">GIFT CARDS</a></li>
+                        <li><a href="contact.html">CONTACT US</a></li>
+                    </ul>
+                    <!-- <input id="search_bar" type="text" placeholder="Search.."> -->
+                </nav>
+            </header>
+            <!--------------------- main --------------------------->
+            <main id="main_content">
+                <img id ="burger" src="Rockadilly-images/burger-photography-tips-styling.jpg" alt="image of a burger served in a resturant">
+                <img id="shakes" src="Rockadilly-images/istockphoto-512751906-612x612.jpg" alt="image of hot coco served in jar with the ingredients used laying beside it">
+			<div >
+				
+				<!-------------YOUR PART------------------>
+				 <h1>Come and help us to decide your gift</h1>
+				<p>By answering this questions, you can get a chance to win a gift.The first five lucky customers will receive gift cards.</p>
+				<form method="post" action="restaurantgift.html" id="giftcardform" name="form_gift">
+				<p>
+					<label for="firstname">First name:</label>
+					<input type="text" name="fname" id="firstname" placeholder="Type your first name"/>
+				</p>
+				
+				<p>
+					<label for="Oocasion">Occassion:</label>
+					<input type="text" name="occasion" id="Ocassion" placeholder="Please type occasion"/>
+				</p>
+				
+				<p>
+					<label for="amount">Amount that you want to win($):</label>
+					<input type="text" name="amount" id="amount" placeholder="Please enter amount" />
+				</p>
+				
+				<p>
+				<label for="email" >Email:</label>
+				<input type="text" name="email" id="Email" placeholder="Please enter email" />
+				</p>
+				
+				<h2>Click on images below to get your gift card selected.</h2>
+				<div id="container">
+					<!--Main image-->
+					
+					<div id="topPic">
+						<img id="mainImg" src="Rockadilly-images/topimage.jpg" width="600px" height="400" alt="My Gift Card Image" title="Welcome to our restaurant"/>
+					</div>
+					
+					<!--Thumbnail gallery-->
+					<div id="gallery">
+						<img id="pic1" src="Rockadilly-images/giftcard1.jpg" width="200px" alt="Gift Card 1 image"/>
+						<img id="pic2" src="Rockadilly-images/giftcard2.jpg" width="200px" alt="Gift Card 2 image"/>
+						<img id="pic3" src="Rockadilly-images/giftcard3.jpg" width="200px" alt="Gift Card 3 image"/>
+					</div>	
+				</div>
+				<p>
+						<input type="submit" value="Submit" name="submit" />
+					</p>
+				</form>
+				<div id="thanks_msg">
+					<h2>Thank you <span id="thanksCustomer"></span> for filling out the form and choosing the image.The gift card depends upon both the filled form and the image chosen!!</h2>
+					
+					<div>
+						<p>Your gift card will be emailed 
+
+						to <span id="thanksPC">you</span>.</p>
+
+					</div>
+				
+				</div>
+			</div>
+		</main>
+		<section id="contact">
+			<img class="c_img" src="Rockadilly-images/1958364874dbd3456967a9ba6c753945.jpg" alt="images of logo of facebook,twiteer and instagram">		
+		</section>
+		<footer id="footer">
+			<h3 id="location">2 ROBSON STREET TORONTO,ON M9X1B2</h3>
+			<div class="foot">
+				<nav>
+					<ul id="foot_list">
+						<li><a href="index.html"><span class="f_home">HOME</span></a></li>
+						<li><a href="career.html">CAREERS</a></li>
+						<li><a href="sitemap.html">SITE MAP</a></li>
+						<li><a href="contests.html">CONTESTS</a></li>
+						<li><a href="event.html">EVENTS</a></li>
+					</ul>
+				</nav>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

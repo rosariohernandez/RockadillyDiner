@@ -1,0 +1,34 @@
+/*body{
+	background: #4abfb2;
+}*/
+	
+#mainContain {
+	background: #04BFBF;
+	width: 75%;
+	margin: 0 auto;
+	padding: 4px 0;
+}
+.panelContainer{
+	background: #7FB2F0;
+	width: 65%;
+	margin: 0 auto;
+}
+.panelContainer p{
+	background: #FF2D00;
+	padding: 10px;
+	color: #FFE5C3;
+}
+
+h1{
+	margin-left: 180px;
+}
+
+h2{
+	margin-bottom: 2.5px;
+	padding: 3px 0 2px 25px;
+	background: #FF2D00;
+}
+p{
+	margin-top: 0;
+	padding-top: 0;
+}

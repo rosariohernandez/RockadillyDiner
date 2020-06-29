@@ -1,0 +1,161 @@
+@import url(//db.onlinewebfonts.com/c/07ac1b4c6f743ac79438d4144ead1f4e?family=Libel+Suit);
+
+* {
+    font-family: 'Libel Suit', sans-serif;
+}
+html {
+    box-sizing: boder-box;
+    color:#000000;
+}
+*, *::before, *::after {
+    box-sizing:inherit;
+}
+.hidden {
+    position:absolute;
+    left:-10000px;
+}
+body {
+    font-size:100%;
+    line-height:1.2;
+    font-family:'Libel Suit', sans-serif;
+    margin:center;
+    background-color:white;
+    text:center;
+}
+.page-wrapper {
+    max-width:1200px;
+    margin:0 auto;
+}
+.box{
+    padding:1em;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+h2 {
+    color:#007A6F;
+    font-size:50px;
+    text-align:center;
+    margin-top:2em;
+}
+p {
+    text-align:center:
+}
+h4 {
+    font-size:24px;
+    color:#D22A27;
+}
+label {
+    color:white;
+}
+button {
+    background-color:#28BCA5;
+    color:white;
+    padding:0.28em 0.5em;
+    font-size:20px;
+    text-decoration:none;
+    border-radius:8px;
+}
+span {
+    font-weight:bold;
+    font-size: 20px;
+    color:#D22A27;
+}
+#sidebar-one, #sidebar-two {
+    padding:4em;
+}
+#contact-form {
+    margin-top:3em:
+    float:left;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=email], select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+.container {
+  border-radius: 5px;
+  background-color:#D22A27;
+  padding: 20px;
+  
+}
+#main {
+    margin-bottom: 10px;
+}
+.flex-container {
+    display:flex;
+}
+#sidebar-one {
+    background-color:white;
+    width:40%;
+    font-weight:regular;
+    font-size:18px;
+    float:right;
+    padding-bottom:5em;
+    margin-bottom:20px;
+    
+}
+#sidebar-two {
+    width:40%;
+    float:left;
+    margin-left:1.5em;
+    padding-bottom:5em;  
+}
+
+#confirmationMsg {
+    margin-left:3em;
+    float:left;
+    margin-bottom:3em;
+    padding-bottom:2em;
+}
+
+
+
+@media all and (max-width:768px) {
+
+/*#sidebar-one {
+    order:-1;
+    flex:1 0 100%;
+}
+#sidebar-two {
+    order:1;
+    flex:1 0 100%;
+}	
+ 
+@media all and (max-width:480px) {
+/*#confirmationMsg{
+    text-align:center;
+    display:block;
+}*/
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
